@@ -1,0 +1,18 @@
+[
+  {
+    "id":"7",
+    "img": "/images/60.png",
+    "name" :"QuynhAnhShyn",
+    "img1" :"/images/refresh01.png",
+    "text" :"refresh01美腻|高颜值唇妆！开启秋日珊瑚色美妆",
+    "index":"2"
+  },
+  {
+    "id":"8",
+    "img" :"/images/70.png",
+    "name": "墨公子",
+    "img1":"/images/refresh02.png",
+    "text":"refresh02护肤|简单有效！痘痘肌必看的祛痘宝典",
+    "index":"2"
+  }
+]

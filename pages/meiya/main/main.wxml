@@ -1,0 +1,46 @@
+<view class="main-box">
+    <view class="second-list">
+        <view class="list-loading">
+            <loading hidden="{{loadingHidden}}">努力加载中...</loading>
+        </view>
+        <scroll-view   wx:if="{{loadingHidden}}" scroll-y="true"  
+                        bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" 
+                        upper-threshold="0" lower-threshold="50" scroll-top="{{refreshHidden ? 1 : 0}}">        
+            
+            <view class="banner">
+                <swiper class="swiper-box" autoplay="{{banner.autoplay}}" interval="{{banner.interval}}" duration="{{banner.duration}}">
+                    <block wx:for="{{imgUrls}}">
+                        <swiper-item>
+                                <image mode="aspectFill" src="{{item}}" class="slide-image"/>
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </view>    
+            <view class="first-list">
+                <ul>
+                    <li><image src="/images/3.png"></image></li>
+                    <li><image src="/images/4.png"></image></li>
+                    <li><image src="/images/5.png"></image></li>
+                </ul>
+            </view>
+            <view hidden="{{refreshHidden}}">
+                <button plain="true" loading="true">努力刷新中...</button>
+            </view>
+            <navigator url="../detail/detail?id={{item.id}}&&index={{item.index}}" wx:for="{{list}}" wx:for-item="item">
+                <ul class="ul-box">
+                    <li class="one">
+                            <image class="headerimg" mode="aspectFit" src="{{item.img}}" ></image>
+                            <i class="name">{{item.name}}</i>
+                            <image class="jia" src='/images/jia.png'></image>
+                    </li>
+                    <li class="two"><image src="{{item.img1}}"></image></li>
+                    <li class="third">{{item.text}}</li>
+                    <li class="four"></li>
+                </ul>
+            </navigator>
+            <view hidden="{{loadmoreHidden}}">
+                    <button plain="true" loading="true">努力加载中...</button>
+            </view>  
+        </scroll-view>    
+    </view>
+</view>

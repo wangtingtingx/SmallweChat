@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/meiya/main/main",
+    "pages/meiya/detail/detail",
+    "pages/meiya/love/love",
+    "pages/meiya/search/search",
+    "pages/meiya/share/share",
+    "pages/meiya/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+    "window":{  
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "nasdavigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#a9b7b7",
+    "selectedColor":"pink",
+    "borderStyle":"white",
+    "list":[
+
+      {
+      "pagePath": "pages/meiya/main/main",
+      "text": "首页",
+      "iconPath": "images/main.png",
+      "selectedIconPath": "images/main-light.png"
+      },
+  
+      {
+      "pagePath": "pages/meiya/search/search",
+      "text": "发现",
+      "iconPath": "images/search.png",
+      "selectedIconPath": "images/search-light.png"
+    },
+      {
+      "pagePath": "pages/meiya/share/share",
+      "iconPath": "images/share.png",
+      "selectedIconPath": "images/share.png",
+      "text": " "
+    },
+    {
+      "pagePath": "pages/meiya/love/love",
+      "iconPath": "images/love.png",
+      "selectedIconPath": "images/love-light.png",
+      "text": "关注"
+    },
+    {
+      "pagePath": "pages/meiya/my/my",
+      "iconPath": "images/my.png",
+      "selectedIconPath": "images/my-light.png",
+      "text": "个人"
+    }
+    ]
+  }
+}

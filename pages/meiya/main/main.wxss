@@ -1,0 +1,48 @@
+.main-box{width:100%;display:flex;flex-direction:column;background:#eee;height:100%;}
+ scroll-view{height:100%;}
+.banner{height:42%;width:100%}
+.swiper-box{width:100%;height:100%;}
+.banner image{width:100%;height:100%}
+.first-list{width:100%;background:#fff;}
+.first-list ul{display:flex;box-sizing:border-box;flex-wrap:wrap;padding:6px 5px 6px 0;height:85px;}
+.first-list ul li{box-sizing:border-box;width:33.3%;height:100%;padding-left:5px;}
+.first-list ul li image{width:100%;height:100%;}
+
+.second-list{flex:1;width:100%;background:#eee;height:100%;}
+.second-list scroll-view button{font-size:14px;border:0}
+.ul-box{display:flex;width:100%;flex-direction:column;font-size:12px;color:#333;margin-top:6px;}
+.one{width:100%;height:40px;overflow:hidden;display:flex;padding:0 0 0 8px;background:#fff;}
+.headerimg{height:40px;width:30px;}
+.name{width:55%;display:block;line-height:44px;margin-left:6px;}
+.jia{padding:10px 0 0 72px;width:44px;height:22px;}
+.two{width:100%;height:170px;}
+.two image{width:100%;height:100%;}
+.third{width:100%;height:30px;line-height:30px;padding:0 0 0 5px;background:#fff;}
+.four{width:100%;height:20px;background:#fff;}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 321px) {
+  .main-list ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 322px) and (max-width: 400px) {
+  .main-list ul li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .main-list ul li {
+    font-size: 16px;
+  }
+}

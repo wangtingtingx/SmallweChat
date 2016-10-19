@@ -1,0 +1,10 @@
+.d-container {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+image {width:100%;}
+view {font-size: 12px;line-height:30px;padding:10px}
+

@@ -1,0 +1,8 @@
+<view class="d-container">
+  <view>{{list.name}}</view>
+  
+  <image mode="scaleToFill" src="{{list.img1}}" ></image>
+  
+  <view class="text">{{list.text}}</view>
+</view>
+
